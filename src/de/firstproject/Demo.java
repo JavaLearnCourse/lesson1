@@ -70,6 +70,8 @@ public class Demo {
     // i = 5  x = 9
 
     // 5 6 7 8 9
+
+
     public static void main1(int i, int x) {
         if (i > x) {
             System.out.println("Упс! Невозможно запустить цикл");
