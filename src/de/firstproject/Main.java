@@ -1,5 +1,7 @@
 package de.firstproject;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         String str = "Hello World";
@@ -15,5 +17,15 @@ public class Main {
         double d1 = 5.7;
         System.out.println(d1 + " Euro");
         System.out.println(0.1 + 0.2);
+
+        long y = 20_000_000_000l;
+        float z = 5.6f;
+
     }
+    /*
+    Ссылочные типы данных
+    1. Массив
+    2. Класс
+    3. Интерфейс
+     */
 }
