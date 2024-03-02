@@ -4,12 +4,16 @@ public class Homework {
 
 
 
-    public static void sum(int i, int x) {
+    public static int sum(int i, int x) {
         int sum = 0;
         while(i <= x) {
             sum = sum + i;
             i++;
         }
+       return sum;
+    }
+    public void modifySum(int i,  int x) {
+        int sum = sum(i, x);
         System.out.println(sum);
         if(sum % 3 == 0) {
             System.out.println(sum*sum);
