@@ -3,34 +3,24 @@ package de.firstproject;
 public class ArrsayUebung {
 
     public static void main(String[] args) {
-//       boolean a[] = new boolean[5];
-//
-//        System.out.println(a.length);
-//        for (int i = 0; i < a.length ; i++) {
-//            System.out.println(a[i]);
-//        }
-////
-//        String [] ab = new String[6];
-//
-//
-//        for (int i = 0; i < ab.length ; i++) {
-//            System.out.println(ab[i].toUpperCase());
-//        }
+
 
         int [] a = new int[3];
         a[0] = 5;
         a[1] = -3;
         a[2] = 2;
-        printArray(a);
-        method1(a);
-//        System.out.println("-------------------");
-//        printArray(a);
-//        swap(a, 1, 2);
-//        System.out.println("-------------------");
-       printArray(a);
 
-       int c[] = {};
-        max(c);
+        method1(a);
+        printArray(a);
+//        method1(a);
+////        System.out.println("-------------------");
+////        printArray(a);
+////        swap(a, 1, 2);
+////        System.out.println("-------------------");
+//       printArray(a);
+//
+//       int c[] = {};
+//        max(c);
 
 
            /*
